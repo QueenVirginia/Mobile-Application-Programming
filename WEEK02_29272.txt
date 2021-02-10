@@ -1,0 +1,22 @@
+Queen Virginia J.T. / 00000029272
+
+2. Pengujian
+   a. Terjadi error yaitu menampilkan pesan error java.lang.NumberFormatException: empty string.
+      Dan pada saat dijalankan diHP maka app akan crash.
+   b. Terjadi error yaitu menampilkan pesan error java.lang.NumberFormatException: empty string.
+      Dan pada saat dijalankan diHP maka app akan crash dan keluar dari app.
+   c. Akan menampilkan hasil infinity jika Angka 1 dimasukkan angka. Jika Angka1 tidak dimasukkan angka
+      maka akan teerror yaitu menampilkan pesan error java.lang.NumberFormatException: empty string.
+      Dan pada saat dijalankan diHP maka app akan crash.
+
+   Langkah-langkah untuk mengatasi error yaitu:
+   - Dengan cara TRY CATCH.
+   - Memberikan pop up error messange terhadap nilai yang tidak sesuai. 
+
+3. Debugging
+   - Step-over : Akan mengeksekusi baris selanjutnya dan berhenti. Jika dilanjutkan terus
+                 Sampai breakpoint terakhir maka bisa mengeksekusi program tersebut.
+   - Step-into : Ketika dijalankan maka akan membuka tab baru yaitu AppCompatEditText.java     
+   - Step-out  : Ketika step-out maka akan keluar dari protected void hitung(...) dan akan berada
+                 pada btn.Bagi karena merupakan blok yang terakhir diekekusi.
+   - Resume    : Ketika diresume maka proses akan dijalankan sampai selesai.
