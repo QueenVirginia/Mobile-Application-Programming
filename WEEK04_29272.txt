@@ -1,0 +1,9 @@
+Queen Virginia J. T. - 00000029272
+
+Ketika mengirim teks maka akan muncul teks tersebut pada Actvity berikutnya,
+Ketika dibalas maka akan kembali ke Activity awal dan menampilkan hasil balasanya.
+Ketika kosong juga bisa berpindah Activity.
+
+Untuk halaman website ketika diklik button BROWSE maka secara default akan menuju ke
+link www.umn.ac.id ketika menuliskan link lain maka akan menuju link yang dituliskan.
+Untuk menuliskan link harus lengkap jika tidak maka tidak akan jalan. 
