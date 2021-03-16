@@ -1,0 +1,16 @@
+Queen Virginia J. T. - 00000029272
+
+- WEEK06A
+  Saat di run ketika layar di sentuh maka ak muncul lingkaran berwarna hijau yang akan
+  terus membesar, ketika sudah max maka lingkaran tersebut akan mengecil dan menghilang.
+  Lingkaran akan kembali ketika layar disentuh dimana pun.
+
+- WEEK06B
+  Ketika di run maka akan muncul animasi orang menaiki kuda. Gambar-gambar yang dimasukkan
+  pada drawable bergerak secara animasi sehingga terlihat seperti seseorang yang sedang
+  berkuda. Pada aplikasi tersebut animasi akan berjalan terus sampai aplikasi tersebut
+  ditutup.
+
+- WEEK06C
+  Pada tombol spring ketika ditekan akan bergerak kebawah lalu kembali ke posisi awal. 
+  Sedangkan untuk tombol fling akan berputar jika ditekan.
