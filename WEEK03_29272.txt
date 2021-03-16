@@ -1,0 +1,8 @@
+Queen Virginia J.T. / 00000029272
+
+2. Hasil Pengujian:
+   Saat kata yang berada pada daftar diklik akan menampilkan pesan disamping
+   kata tersebut "pernah diklik" dan menampilkan pop-up message "Kata 2 dipilih"
+   (dalam hal ini memilih kata 2). Dan ketika menambah sebuah kata dilist akan 
+   menampilkan Kata 21 sebagai kata selanjutnya dan menampilkan pesan disamping
+   yaitu "telah ditambahkan"
