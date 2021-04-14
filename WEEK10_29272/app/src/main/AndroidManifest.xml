@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WEEK10_29272">
         <service
-            android:name=".CustomService"
+            android:name=".CustomBoundService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".CustomService"
+            android:enabled="true"
+            android:exported="true" />
         <service android:name=".SimpleIntentService" />
 
         <activity android:name=".C" />

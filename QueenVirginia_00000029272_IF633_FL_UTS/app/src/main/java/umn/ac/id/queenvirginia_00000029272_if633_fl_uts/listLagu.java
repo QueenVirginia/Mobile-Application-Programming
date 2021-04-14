@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
@@ -44,10 +45,6 @@ public class listLagu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_lagu);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(listLagu.this);
-        builder.setTitle("WELCOME!");
-        builder.setMessage("Queen Virginia Jeanifer T. \n00000029272").setNegativeButton("OK", null).create().show();
-        
         Toolbar toolbar = (Toolbar) findViewById(R.id.menu_bar);
         setSupportActionBar(toolbar);
 
@@ -55,6 +52,17 @@ public class listLagu extends AppCompatActivity {
 
         runtimePermission();
 
+        AlertDialog.Builder builder = new AlertDialog.Builder(listLagu.this);
+        builder.setTitle("WELCOME!");
+        builder.setMessage("Queen Virginia Jeanifer T. \n00000029272");
+        builder.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        AlertDialog popupDialog = builder.create();
+        popupDialog.show();
     }
 
     public void runtimePermission()
